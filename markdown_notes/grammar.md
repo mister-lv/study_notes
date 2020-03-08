@@ -1,0 +1,105 @@
+# makrdown （标准) 语法
+
+## 前言
+    1. Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。    --摘自百度百科
+    
+## Markdown基本语法
+    1. 标题
+        代码
+            # 一级标题
+            ## 二级标题
+            ### 三级标题
+            #### 四级标题
+            #####五级标题
+            ###### 最小只有六级标题
+            
+    2. 加粗
+        代码
+            **我被加粗了**
+    
+    3. 斜体
+        代码
+            *我倾斜了*
+      
+    4. 高亮
+        代码
+            ==我高亮了==
+            
+    5. 上标
+        代码
+            2^2^
+    
+    6. 下标
+        代码
+            h~2~o
+            
+    7. 代码引用
+        代码
+            >hello markdown!
+        代码
+            >>hello markdown!
+                     
+    8. 代码引用（``` 式）
+        代码
+            ```
+            print(`hello world`)
+            ```            
+            
+    9. 代码引入（`式）
+        代码
+            `
+            print("hello world")
+            `
+    10. 插入链接（链接显示）
+        代码
+            <https://www.baidu.com>
+            
+    11. 插入链接（链接描述显示)
+        代码
+            【描述](https://www.baidu.com”描述“)
+            
+    12. 出入图片（链接）
+        代码
+            ![数据类型总结-搞笑结束.jpg?x-oss-process=style/watermark](http://www.chenyoude.com/Python从入门到放弃/数据类型总结-搞笑结束.jpg?x-oss-process=style/watermark '描述信息')
+            
+    13. 插入图片（图片路径）
+            （1）相对路径：.md文本同目录下图片的名字，如数据类型总结-搞笑结束.jpg?x-oss-process=style/watermark
+            （2）绝对路径：图片在电脑中的路径地址，如\Users\nick\mac\desktop\数据类型总结-搞笑结束.jpg?x-oss-process=style/watermark
+            
+            代码
+                ![数据类型总结-搞笑结束.jpg?x-oss-process=style/watermark](数据类型总结-搞笑结束.jpg?x-oss-process=style/watermark '描述信息')
+                
+                ![数据类型总结-搞笑结束.jpg?x-oss-process=style/watermark](\Users\nick\mac\desktop\数据类型总结-搞笑结束.jpg?x-oss-process=style/watermark '描述信息')
+               
+    14. 有序列表
+        代码
+            1.one
+            2.two
+            3.three
+        
+    15. 无序列表
+        代码
+            *one
+            *two
+            *three
+           
+    16.分割线
+        代码
+            ---
+         
+    17. 表格（而且第二行必须得有，并且第二行的冒号代表对齐格式，分别为居中；右对齐；左对齐）
+        代码
+            name|age|sex
+            :-:|:-|-:
+            tony|20|男
+            lucy|18|女
+           
+    18. 数学公式（行内嵌）
+        代码
+            内嵌数学公式$\sum_{i=1}^{10}f(i)\,\,\text{thanks}$
+     
+    19. 数学公式（块状）
+        代码
+            $$
+            \sum_{i=1}^{10}f(i)\,\,\text{thanks}
+            $$
